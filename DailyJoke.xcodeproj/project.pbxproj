@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13BF5B482A4B79460038BA68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BF5B472A4B79460038BA68 /* AppDelegate.swift */; };
+		13BF5B4A2A4B79460038BA68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BF5B492A4B79460038BA68 /* SceneDelegate.swift */; };
+		13BF5B4C2A4B79460038BA68 /* JokeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BF5B4B2A4B79460038BA68 /* JokeViewController.swift */; };
+		13BF5B4F2A4B79460038BA68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13BF5B4D2A4B79460038BA68 /* Main.storyboard */; };
+		13BF5B522A4B79460038BA68 /* DailyJoke.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 13BF5B502A4B79460038BA68 /* DailyJoke.xcdatamodeld */; };
+		13BF5B542A4B794A0038BA68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13BF5B532A4B794A0038BA68 /* Assets.xcassets */; };
+		13BF5B572A4B794A0038BA68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13BF5B552A4B794A0038BA68 /* LaunchScreen.storyboard */; };
+		13BF5B622A4B794B0038BA68 /* DailyJokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BF5B612A4B794B0038BA68 /* DailyJokeTests.swift */; };
+		13BF5B6C2A4B794B0038BA68 /* DailyJokeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BF5B6B2A4B794B0038BA68 /* DailyJokeUITests.swift */; };
+		13BF5B6E2A4B794B0038BA68 /* DailyJokeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BF5B6D2A4B794B0038BA68 /* DailyJokeUITestsLaunchTests.swift */; };
+		13BF5B802A4B80550038BA68 /* JokeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BF5B7F2A4B80540038BA68 /* JokeModel.swift */; };
+		13BF5B822A4B89220038BA68 /* JokePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BF5B812A4B89220038BA68 /* JokePresenter.swift */; };
+		13BF5B852A4B8A720038BA68 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BF5B842A4B8A720038BA68 /* ApiService.swift */; };
+		13D75DB12A4CB5A4001FE846 /* JokeViewTbl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D75DB02A4CB5A4001FE846 /* JokeViewTbl.swift */; };
+		13D75DB32A4CB6A9001FE846 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D75DB22A4CB6A9001FE846 /* Global.swift */; };
+		13D75DB52A4CC14B001FE846 /* InternetConnectivityCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D75DB42A4CC14A001FE846 /* InternetConnectivityCheck.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13BF5B5E2A4B794B0038BA68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13BF5B3C2A4B79460038BA68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13BF5B432A4B79460038BA68;
+			remoteInfo = DailyJoke;
+		};
+		13BF5B682A4B794B0038BA68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13BF5B3C2A4B79460038BA68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13BF5B432A4B79460038BA68;
+			remoteInfo = DailyJoke;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13BF5B442A4B79460038BA68 /* DailyJoke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyJoke.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13BF5B472A4B79460038BA68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13BF5B492A4B79460038BA68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		13BF5B4B2A4B79460038BA68 /* JokeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeViewController.swift; sourceTree = "<group>"; };
+		13BF5B4E2A4B79460038BA68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13BF5B512A4B79460038BA68 /* DailyJoke.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DailyJoke.xcdatamodel; sourceTree = "<group>"; };
+		13BF5B532A4B794A0038BA68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13BF5B562A4B794A0038BA68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13BF5B582A4B794A0038BA68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13BF5B5D2A4B794B0038BA68 /* DailyJokeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyJokeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13BF5B612A4B794B0038BA68 /* DailyJokeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyJokeTests.swift; sourceTree = "<group>"; };
+		13BF5B672A4B794B0038BA68 /* DailyJokeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyJokeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13BF5B6B2A4B794B0038BA68 /* DailyJokeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyJokeUITests.swift; sourceTree = "<group>"; };
+		13BF5B6D2A4B794B0038BA68 /* DailyJokeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyJokeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		13BF5B7F2A4B80540038BA68 /* JokeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeModel.swift; sourceTree = "<group>"; };
+		13BF5B812A4B89220038BA68 /* JokePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokePresenter.swift; sourceTree = "<group>"; };
+		13BF5B842A4B8A720038BA68 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		13D75DB02A4CB5A4001FE846 /* JokeViewTbl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeViewTbl.swift; sourceTree = "<group>"; };
+		13D75DB22A4CB6A9001FE846 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		13D75DB42A4CC14A001FE846 /* InternetConnectivityCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetConnectivityCheck.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13BF5B412A4B79460038BA68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13BF5B5A2A4B794B0038BA68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13BF5B642A4B794B0038BA68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13BF5B3B2A4B79460038BA68 = {
+			isa = PBXGroup;
+			children = (
+				13BF5B462A4B79460038BA68 /* DailyJoke */,
+				13BF5B602A4B794B0038BA68 /* DailyJokeTests */,
+				13BF5B6A2A4B794B0038BA68 /* DailyJokeUITests */,
+				13BF5B452A4B79460038BA68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13BF5B452A4B79460038BA68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13BF5B442A4B79460038BA68 /* DailyJoke.app */,
+				13BF5B5D2A4B794B0038BA68 /* DailyJokeTests.xctest */,
+				13BF5B672A4B794B0038BA68 /* DailyJokeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13BF5B462A4B79460038BA68 /* DailyJoke */ = {
+			isa = PBXGroup;
+			children = (
+				13BF5B832A4B8A570038BA68 /* Api Service */,
+				13BF5B7E2A4B7F600038BA68 /* Utility */,
+				13BF5B7A2A4B7F110038BA68 /* JokeList */,
+				13BF5B472A4B79460038BA68 /* AppDelegate.swift */,
+				13BF5B492A4B79460038BA68 /* SceneDelegate.swift */,
+				13BF5B4D2A4B79460038BA68 /* Main.storyboard */,
+				13BF5B532A4B794A0038BA68 /* Assets.xcassets */,
+				13BF5B552A4B794A0038BA68 /* LaunchScreen.storyboard */,
+				13BF5B582A4B794A0038BA68 /* Info.plist */,
+				13BF5B502A4B79460038BA68 /* DailyJoke.xcdatamodeld */,
+			);
+			path = DailyJoke;
+			sourceTree = "<group>";
+		};
+		13BF5B602A4B794B0038BA68 /* DailyJokeTests */ = {
+			isa = PBXGroup;
+			children = (
+				13BF5B612A4B794B0038BA68 /* DailyJokeTests.swift */,
+			);
+			path = DailyJokeTests;
+			sourceTree = "<group>";
+		};
+		13BF5B6A2A4B794B0038BA68 /* DailyJokeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13BF5B6B2A4B794B0038BA68 /* DailyJokeUITests.swift */,
+				13BF5B6D2A4B794B0038BA68 /* DailyJokeUITestsLaunchTests.swift */,
+			);
+			path = DailyJokeUITests;
+			sourceTree = "<group>";
+		};
+		13BF5B7A2A4B7F110038BA68 /* JokeList */ = {
+			isa = PBXGroup;
+			children = (
+				13BF5B7D2A4B7F380038BA68 /* Presenter */,
+				13BF5B7C2A4B7F300038BA68 /* View */,
+				13BF5B7B2A4B7F280038BA68 /* Model */,
+			);
+			path = JokeList;
+			sourceTree = "<group>";
+		};
+		13BF5B7B2A4B7F280038BA68 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				13BF5B7F2A4B80540038BA68 /* JokeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		13BF5B7C2A4B7F300038BA68 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				13BF5B4B2A4B79460038BA68 /* JokeViewController.swift */,
+				13D75DB02A4CB5A4001FE846 /* JokeViewTbl.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		13BF5B7D2A4B7F380038BA68 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				13BF5B812A4B89220038BA68 /* JokePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		13BF5B7E2A4B7F600038BA68 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				13D75DB22A4CB6A9001FE846 /* Global.swift */,
+				13D75DB42A4CC14A001FE846 /* InternetConnectivityCheck.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		13BF5B832A4B8A570038BA68 /* Api Service */ = {
+			isa = PBXGroup;
+			children = (
+				13BF5B842A4B8A720038BA68 /* ApiService.swift */,
+			);
+			path = "Api Service";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13BF5B432A4B79460038BA68 /* DailyJoke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13BF5B712A4B794B0038BA68 /* Build configuration list for PBXNativeTarget "DailyJoke" */;
+			buildPhases = (
+				13BF5B402A4B79460038BA68 /* Sources */,
+				13BF5B412A4B79460038BA68 /* Frameworks */,
+				13BF5B422A4B79460038BA68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DailyJoke;
+			productName = DailyJoke;
+			productReference = 13BF5B442A4B79460038BA68 /* DailyJoke.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13BF5B5C2A4B794B0038BA68 /* DailyJokeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13BF5B742A4B794B0038BA68 /* Build configuration list for PBXNativeTarget "DailyJokeTests" */;
+			buildPhases = (
+				13BF5B592A4B794B0038BA68 /* Sources */,
+				13BF5B5A2A4B794B0038BA68 /* Frameworks */,
+				13BF5B5B2A4B794B0038BA68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13BF5B5F2A4B794B0038BA68 /* PBXTargetDependency */,
+			);
+			name = DailyJokeTests;
+			productName = DailyJokeTests;
+			productReference = 13BF5B5D2A4B794B0038BA68 /* DailyJokeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13BF5B662A4B794B0038BA68 /* DailyJokeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13BF5B772A4B794B0038BA68 /* Build configuration list for PBXNativeTarget "DailyJokeUITests" */;
+			buildPhases = (
+				13BF5B632A4B794B0038BA68 /* Sources */,
+				13BF5B642A4B794B0038BA68 /* Frameworks */,
+				13BF5B652A4B794B0038BA68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13BF5B692A4B794B0038BA68 /* PBXTargetDependency */,
+			);
+			name = DailyJokeUITests;
+			productName = DailyJokeUITests;
+			productReference = 13BF5B672A4B794B0038BA68 /* DailyJokeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13BF5B3C2A4B79460038BA68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					13BF5B432A4B79460038BA68 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					13BF5B5C2A4B794B0038BA68 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 13BF5B432A4B79460038BA68;
+					};
+					13BF5B662A4B794B0038BA68 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 13BF5B432A4B79460038BA68;
+					};
+				};
+			};
+			buildConfigurationList = 13BF5B3F2A4B79460038BA68 /* Build configuration list for PBXProject "DailyJoke" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13BF5B3B2A4B79460038BA68;
+			productRefGroup = 13BF5B452A4B79460038BA68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13BF5B432A4B79460038BA68 /* DailyJoke */,
+				13BF5B5C2A4B794B0038BA68 /* DailyJokeTests */,
+				13BF5B662A4B794B0038BA68 /* DailyJokeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13BF5B422A4B79460038BA68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13BF5B572A4B794A0038BA68 /* LaunchScreen.storyboard in Resources */,
+				13BF5B542A4B794A0038BA68 /* Assets.xcassets in Resources */,
+				13BF5B4F2A4B79460038BA68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13BF5B5B2A4B794B0038BA68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13BF5B652A4B794B0038BA68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13BF5B402A4B79460038BA68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D75DB52A4CC14B001FE846 /* InternetConnectivityCheck.swift in Sources */,
+				13BF5B4C2A4B79460038BA68 /* JokeViewController.swift in Sources */,
+				13BF5B482A4B79460038BA68 /* AppDelegate.swift in Sources */,
+				13D75DB12A4CB5A4001FE846 /* JokeViewTbl.swift in Sources */,
+				13BF5B802A4B80550038BA68 /* JokeModel.swift in Sources */,
+				13BF5B822A4B89220038BA68 /* JokePresenter.swift in Sources */,
+				13BF5B522A4B79460038BA68 /* DailyJoke.xcdatamodeld in Sources */,
+				13BF5B852A4B8A720038BA68 /* ApiService.swift in Sources */,
+				13BF5B4A2A4B79460038BA68 /* SceneDelegate.swift in Sources */,
+				13D75DB32A4CB6A9001FE846 /* Global.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13BF5B592A4B794B0038BA68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13BF5B622A4B794B0038BA68 /* DailyJokeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13BF5B632A4B794B0038BA68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13BF5B6C2A4B794B0038BA68 /* DailyJokeUITests.swift in Sources */,
+				13BF5B6E2A4B794B0038BA68 /* DailyJokeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13BF5B5F2A4B794B0038BA68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13BF5B432A4B79460038BA68 /* DailyJoke */;
+			targetProxy = 13BF5B5E2A4B794B0038BA68 /* PBXContainerItemProxy */;
+		};
+		13BF5B692A4B794B0038BA68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13BF5B432A4B79460038BA68 /* DailyJoke */;
+			targetProxy = 13BF5B682A4B794B0038BA68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13BF5B4D2A4B79460038BA68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13BF5B4E2A4B79460038BA68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13BF5B552A4B794A0038BA68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13BF5B562A4B794A0038BA68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13BF5B6F2A4B794B0038BA68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13BF5B702A4B794B0038BA68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13BF5B722A4B794B0038BA68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DailyJoke/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.tet.DailyJoke;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13BF5B732A4B794B0038BA68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DailyJoke/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.tet.DailyJoke;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		13BF5B752A4B794B0038BA68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.tet.DailyJokeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyJoke.app/DailyJoke";
+			};
+			name = Debug;
+		};
+		13BF5B762A4B794B0038BA68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.tet.DailyJokeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyJoke.app/DailyJoke";
+			};
+			name = Release;
+		};
+		13BF5B782A4B794B0038BA68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.tet.DailyJokeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DailyJoke;
+			};
+			name = Debug;
+		};
+		13BF5B792A4B794B0038BA68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.tet.DailyJokeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DailyJoke;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13BF5B3F2A4B79460038BA68 /* Build configuration list for PBXProject "DailyJoke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13BF5B6F2A4B794B0038BA68 /* Debug */,
+				13BF5B702A4B794B0038BA68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13BF5B712A4B794B0038BA68 /* Build configuration list for PBXNativeTarget "DailyJoke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13BF5B722A4B794B0038BA68 /* Debug */,
+				13BF5B732A4B794B0038BA68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13BF5B742A4B794B0038BA68 /* Build configuration list for PBXNativeTarget "DailyJokeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13BF5B752A4B794B0038BA68 /* Debug */,
+				13BF5B762A4B794B0038BA68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13BF5B772A4B794B0038BA68 /* Build configuration list for PBXNativeTarget "DailyJokeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13BF5B782A4B794B0038BA68 /* Debug */,
+				13BF5B792A4B794B0038BA68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		13BF5B502A4B79460038BA68 /* DailyJoke.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				13BF5B512A4B79460038BA68 /* DailyJoke.xcdatamodel */,
+			);
+			currentVersion = 13BF5B512A4B79460038BA68 /* DailyJoke.xcdatamodel */;
+			path = DailyJoke.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 13BF5B3C2A4B79460038BA68 /* Project object */;
+}
